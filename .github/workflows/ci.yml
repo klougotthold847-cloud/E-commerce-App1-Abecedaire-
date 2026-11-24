@@ -3,8 +3,9 @@ name: CI - Lint, Tests and Secrets
 
 on:
   pull_request:
-    branches:
-      - main
+  branches:
+    - dev
+    - main
 
   push:
     branches:
